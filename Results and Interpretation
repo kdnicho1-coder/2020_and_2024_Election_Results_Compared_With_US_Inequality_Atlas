@@ -1,0 +1,50 @@
+Results
+Overview
+The goal of this analysis was to explore whether county level economic inequality is related to changes in voting patterns between the 2020 and 2024 U.S. presidential elections. To examine this relationship, county election results were combined with inequality indicators from the U.S. Inequality Atlas and analyzed using several visual and statistical methods (McGovern, 2024; Steuber, 2024; Reda, 2024).
+The results suggest that electoral change between the two elections was not evenly distributed across counties. Instead, shifts appear to vary depending on both baseline political alignment and levels of economic inequality.
+
+Overall Electoral Change
+The first step in the analysis was examining how counties shifted between the 2020 and 2024 elections.
+Across the dataset, counties show a range of changes in vote share. Many counties experienced relatively small shifts, while others showed larger movements. This variation suggests that electoral change was uneven and likely influenced by local conditions rather than occurring uniformly across the country.
+Looking at the overall distribution of vote share change provides a baseline for understanding how common larger shifts are and whether those changes cluster in particular regions or types of counties.
+
+Inequality and Vote Share Change
+Scatterplots comparing inequality levels with changes in vote share suggest that counties with higher income inequality sometimes show larger electoral shifts.
+However, the relationship is not perfectly linear. Some counties with high inequality show large vote swings, while others remain relatively stable. This indicates that inequality alone does not determine voting behavior.
+Correlation analysis supports this interpretation. The relationship between inequality and vote change appears to be moderate rather than extremely strong, suggesting that inequality may be one factor among several that contribute to electoral change.
+
+Baseline Political Alignment
+Another pattern emerges when counties are grouped based on their baseline vote share in the 2020 election.
+Counties that were strongly Republican in 2020 generally show smaller vote shifts between the two elections. In contrast, counties that were more Democratic in 2020 tend to show larger Republican swings in 2024.
+This pattern suggests a compression effect, where counties that begin farther from a party’s baseline have more room to shift toward that party in subsequent elections.
+
+Interaction Between Inequality and Baseline Voting Patterns
+To explore how inequality interacts with baseline political alignment, counties were grouped into quintiles based on:
+• their 2020 Republican vote share
+• their level of economic inequality
+A heatmap visualization comparing these two dimensions reveals a clear structural pattern.
+Counties that were more Democratic in 2020 and also had higher inequality levels tend to show the largest Republican vote swings in 2024. Counties that were already strongly Republican show relatively smaller changes regardless of inequality levels.
+This suggests that inequality may amplify electoral shifts in certain types of counties, particularly those that were not previously strong Republican areas.
+
+Key Patterns Observed
+Several patterns emerge from the analysis.
+First, electoral change between the 2020 and 2024 elections is uneven across counties rather than uniform nationwide.
+Second, counties with higher inequality sometimes show larger vote shifts than counties with lower inequality.
+Third, baseline political alignment appears to strongly shape how counties move between elections.
+Finally, the largest vote swings tend to appear in counties that combine higher inequality with a more Democratic starting position in 2020.
+
+Interpretation
+These results suggest that economic inequality and political geography may both influence county level electoral change. Previous research has shown that economic conditions and geographic context can shape political participation and voting behavior (Albrecht, 2022; Elder et al., 2024).
+Counties do not shift politically in isolation. They exist within broader economic environments that can affect opportunity, stability, and local political attitudes. Inequality may therefore shape how voters respond to national elections, although it is unlikely to act alone.
+The patterns observed here suggest that economic conditions may interact with existing political structures to produce different electoral outcomes across counties.
+
+Limitations
+While the analysis reveals several interesting patterns, there are important limitations to consider.
+First, the project relies on county level data, which can hide variation within counties. Large counties often contain cities, suburbs, and rural areas with very different voting behavior. Previous research has noted that analyzing voting behavior at broader geographic scales can mask local variation (Mapes, 2024).
+Second, the analysis does not control for other potentially important variables such as education levels, demographic composition, urbanization, or employment structure.
+Finally, the results are exploratory and identify associations rather than causal relationships.
+
+Summary
+The results suggest that electoral change between the 2020 and 2024 elections varies substantially across counties and may be associated with economic inequality.
+Counties with higher inequality and counties that were more Democratic in 2020 tend to show larger Republican vote swings in 2024. While inequality alone does not explain voting behavior, the patterns observed here suggest it may be one piece of a broader set of factors shaping political change across the United States.
+

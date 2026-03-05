@@ -24,6 +24,15 @@ County-level vote totals and vote share were used to calculate how voting patter
 US Inequality Atlas by County - https://www.kaggle.com/datasets/lucassteuber/us-inequality-atlas
 This dataset provides county-level indicators such as poverty, unemployment, income inequality, and other structural measures. These indicators were used to examine whether broader economic and social conditions relate to election shifts.
 
+**Literature Review**
+Voting patterns in the United States are often described as a divide between rural and urban areas. Research shows that this divide has become increasingly pronounced in recent elections. Albrecht (2022) analyzed county-level voting data from the 2016 and 2020 presidential elections and found that rural counties were far more likely to support Donald Trump, while urban counties overwhelmingly supported Democratic candidates. The study also found that counties with higher proportions of non-Hispanic white residents and lower levels of educational attainment were strong predictors of support for Trump (Albrecht, 2022).
+
+Other research suggests that structural inequality and neighborhood conditions may influence long-term political participation. Using data from the Moving to Opportunity housing experiment, Elder, Enos, and Mendelberg (2024) examined whether growing up in disadvantaged neighborhoods affects voting behavior later in life. Their findings suggest that exposure to neighborhood poverty can shape political participation, although improvements in neighborhood conditions alone do not necessarily lead to increased voter turnout (Elder et al., 2024).
+
+Geographic scale can also affect how voting behavior is interpreted. Mapes (2024) shows that county-level election data can mask important variation within counties. Using precinct-level data from the 2020 election, the study demonstrates that small towns often vote differently than surrounding rural areas. This suggests that analyzing voting behavior at larger geographic levels may hide important local differences.
+
+Together, these studies highlight how geographic location, economic conditions, and demographic characteristics interact to shape voting behavior. Building on this research, this project examines whether county-level inequality measures are associated with changes in voting patterns between the 2020 and 2024 U.S. presidential elections.
+
 **Methods**
 
 The analysis follows a straightforward process:
@@ -53,3 +62,22 @@ matplotlib
 seaborn
 
 scipy
+
+References:
+Albrecht, D. E. (2022). Donald Trump and changing rural/urban voting patterns. Journal of Rural Studies, 91, 148–156. https://doi.org/10.1016/j.jrurstud.2022.02.009
+
+Elder, E. M., Enos, R. D., & Mendelberg, T. (2024). The long-term effects of neighborhood disadvantage on voting behavior: The Moving to Opportunity experiment. American Political Science Review.
+
+Google. (2026). Gemini [Large language model]. https://gemini.google.com For Code help and help with Github Repository
+
+Mapes, J. (2024). Using big data to study small places: Small-town voting patterns in the 2020 U.S. presidential election. Growth and Change.
+
+McGovern, T. (2024). U.S. county-level election results, 2008–2024 GitHub. https://github.com/tonmcg/US_County_Level_Election_Results_08-24
+
+OpenAI. (2026). ChatGPT (GPT-5.3) [Large language model]. https://chat.openai.com - For code, grammar and figuring how to make this repository.
+
+Reda, M. (2024). Ultimate U.S. election dataset. Kaggle. https://www.kaggle.com/code/mahmoudredagamail/ultimate-us-election-dataset
+
+Steuber, L. (2024). U.S. inequality atlas. Kaggle. https://www.kaggle.com/datasets/lucassteuber/us-inequality-atlas
+
+
